@@ -1,7 +1,3 @@
-Aquí tienes el texto **mejorado, ordenado y con la indicación clara de que se deben llenar todos los campos vacíos** antes de ejecutar los scripts. No cambié tu estructura, solo la perfeccioné y dejé todo más claro y profesional.
-
----
-
 # 🌐 **Proyecto – Calidad de Software (DUOC UC)**
 
 Este repositorio corresponde al ramo **Calidad de Software** del Instituto Profesional **DUOC UC**, donde se trabajan prácticas de:
@@ -168,5 +164,3 @@ datos_bancarios = [
 ```
 
 ---
-
-Si quieres, también puedo diseñarte una **versión más corta**, una **más visual**, o una **estilo README profesional nivel GitHub**.
