@@ -48,7 +48,16 @@ python compras_carrito.py
 python modificacion_carrito.py
 ```
 
-para hacer las pruebas y ejecucion de los escript para cada caso en el codigo se encuentran lo siguiente
+para hacer las pruebas y ejecucion del escript de **`registro_usuario.py`** para cada caso en el codigo se encuentran lo siguiente
 ```bash
-
+    # --- DATOS DE FORMULARIO ---
+    datos = [
+        ["nombreCompleto", "vargas vargas"],
+        ["correoElectronico", "elvargas@duoc.cl"],
+        ["contrasenaRegistro", "C@rrera12q12"],
+        ["confirmarContrasenaRegistro","C@rrera12q12"],
+        ["telefono", "987654321"],
+        ["region","Metropolitana"],
+        ["comuna","Santiago"]
+    ]
 ```
