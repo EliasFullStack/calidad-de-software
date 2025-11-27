@@ -1,11 +1,11 @@
-#📌 Proyecto – Calidad de Software (DUOC UC)
+# 📌 Proyecto – Calidad de Software (DUOC UC)
 
 Este repositorio corresponde al ramo Calidad de Software del Instituto Profesional DUOC UC, donde se desarrollan actividades orientadas a la validación, automatización y aseguramiento de la calidad en aplicaciones web mediante el uso de Selenium.
 Su propósito es aplicar técnicas de pruebas automatizadas para evaluar el correcto funcionamiento de distintos flujos dentro de una aplicación.
 
 El repositorio está compuesto por cuatro módulos de automatización, cada uno centrado en una funcionalidad clave de una aplicación web: inicio de sesión, registro de usuario, proceso de compra y modificación del carrito.
 
-##🧭 Contenido del repositorio
+## 🧭 Contenido del repositorio
 
 inicio_sesion.py — Automatiza el proceso de inicio de sesión, validando credenciales correctas e incorrectas y el comportamiento esperado del sistema.
 
