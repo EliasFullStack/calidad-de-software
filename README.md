@@ -49,27 +49,23 @@ python modificacion_carrito.py
 ```
 
 ---
+Aquí tienes una versión clara y breve:
 
-Para ejecutar pruebas con **`registro_usuario.py`**, debes **modificar solo los valores** de los campos del formulario (segunda columna), manteniendo los nombres de los campos sin cambios.
+---
+
+Para ejecutar el script **`registro_usuario.py`**, debes **reemplazar los valores vacíos** en la segunda columna de cada campo. Los nombres de los campos deben mantenerse sin cambios.
 
 ```bash
 datos = [
-    ["nombreCompleto", "vargas vargas"],
-    ["correoElectronico", "elvargas@duoc.cl"],
-    ["contrasenaRegistro", "C@rrera12q12"],
-    ["confirmarContrasenaRegistro","C@rrera12q12"],
-    ["telefono", "987654321"],
-    ["region","Metropolitana"],
-    ["comuna","Santiago"]
+    ["nombreCompleto", ""],
+    ["correoElectronico", ""],
+    ["contrasenaRegistro", ""],
+    ["confirmarContrasenaRegistro", ""],
+    ["telefono", ""],
+    ["region", ""],    # Ej: Metropolitana
+    ["comuna", ""]     # Ej: Santiago
 ]
 ```
 
-### ✔️ Reemplazar
-
-Los valores: `"vargas vargas"`, `"elvargas@duoc.cl"`, `"C@rrera12q12"`, `"987654321"`, `"Metropolitana"`, `"Santiago"`.
-
-### ❌ No reemplazar
-
-Los nombres de los campos: `nombreCompleto`, `correoElectronico`, `contrasenaRegistro`, `confirmarContrasenaRegistro`, `telefono`, `region`, `comuna`.
-
 ---
+
