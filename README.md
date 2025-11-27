@@ -1,3 +1,7 @@
+Aquí tienes el texto **mejorado, ordenado y con la indicación clara de que se deben llenar todos los campos vacíos** antes de ejecutar los scripts. No cambié tu estructura, solo la perfeccioné y dejé todo más claro y profesional.
+
+---
+
 # 🌐 **Proyecto – Calidad de Software (DUOC UC)**
 
 Este repositorio corresponde al ramo **Calidad de Software** del Instituto Profesional **DUOC UC**, donde se trabajan prácticas de:
@@ -17,27 +21,27 @@ El proyecto está compuesto por **cuatro módulos de automatización**, cada uno
 ### 🔐 **`inicio_sesion.py`**
 
 Automatiza el flujo completo de **registro + inicio de sesión**.
-El script registra primero al usuario y luego utiliza esos datos almacenados para validar el acceso.
+Primero registra al usuario y luego utiliza esos mismos datos almacenados para validar el acceso.
 
 ---
 
 ### 🧑‍💻 **`registro_usuario.py`**
 
-Simula el registro de un nuevo usuario, validando campos, mensajes del sistema y almacenamiento local de datos.
+Simula el registro de un nuevo usuario, validando campos, mensajes del sistema y el guardado de información.
 
 ---
 
 ### 🛒 **`compras_carrito.py`**
 
-Simula la **selección y compra** de productos.
-Este flujo **no requiere inicio de sesión**, por lo que puede ejecutarse de forma independiente.
+Simula la **selección y compra de productos**.
+Este flujo **no requiere autenticación** y puede ejecutarse de forma independiente.
 
 ---
 
 ### 🛍️ **`modificacion_carrito.py`**
 
-Automatiza acciones dentro del carrito: cambiar cantidad, actualizar productos o eliminarlos.
-Tampoco depende de estar autenticado.
+Automatiza acciones dentro del carrito: actualizar cantidades, modificar productos o eliminarlos.
+Tampoco depende de un usuario autenticado.
 
 ---
 
@@ -64,15 +68,12 @@ Usa cualquiera de los siguientes comandos según el módulo que quieras probar:
 ```bash
 python inicio_sesion.py
 ```
-
 ```bash
 python registro_usuario.py
 ```
-
 ```bash
 python compras_carrito.py
 ```
-
 ```bash
 python modificacion_carrito.py
 ```
@@ -81,24 +82,27 @@ python modificacion_carrito.py
 
 # 📝 **Configuración de datos antes de ejecutar**
 
-Algunos scripts requieren actualizar valores dentro de arreglos.
-A continuación, se detalla qué debes modificar según cada archivo.
+🔴 **IMPORTANTE:**
+**Todos los scripts requieren que completes los campos vacíos (`""`) antes de ejecutar.
+Debes reemplazar únicamente los valores vacíos, manteniendo los nombres de los campos intactos.**
 
 ---
 
 ## 🔐 **1. Configuración para `inicio_sesion.py`**
 
-Este script requiere completar **datos de registro** y **datos de inicio de sesión**.
+Este script utiliza **dos arreglos de datos**: uno para el registro y otro para el inicio de sesión.
 
-### ✏️ **a) Datos de registro** (`register`)
+### ✏️ a) Datos de registro (`register`)
+
+Completa los valores vacíos con los datos que quieras usar:
 
 ```bash
 register = [
-    ["nombreCompleto", ""],                # Ej: Juan Alberto pinto Ibañez
+    ["nombreCompleto", ""],                # Ej: Juan Alberto Pinto Ibañez
     ["correoElectronico", ""],             # Ej: ju.alpiba@duoc.cl
     ["contrasenaRegistro", ""],            # Ej: Ju@npin34w23
     ["confirmarContrasenaRegistro", ""],   # Ej: Ju@npin34w23
-    ["telefono", "987654321"],             # Ej: 987654321
+    ["telefono", ""],                      # Ej: 987654321
     ["region", ""],                        # Ej: Metropolitana
     ["comuna", ""]                         # Ej: Santiago
 ]
@@ -106,7 +110,7 @@ register = [
 
 ---
 
-### ✏️ **b) Datos de inicio de sesión** (`login`)
+### ✏️ b) Datos de inicio de sesión (`login`)
 
 ```bash
 login = [
@@ -119,51 +123,50 @@ login = [
 
 ## 🧑‍💻 **2. Configuración para `registro_usuario.py`**
 
-Debes **reemplazar solo los valores vacíos** en la segunda columna:
+Aquí también debes **llenar cada valor vacío** antes de ejecutar:
 
 ```bash
 datos = [
-    ["nombreCompleto", ""],                # Ej: Juan Alberto pinto Ibañez     
-    ["correoElectronico", ""],             # Ej: ju.alpiba@duoc.cl
-    ["contrasenaRegistro", ""],            # Ej: Ju@npin34w23
-    ["confirmarContrasenaRegistro", ""],   # Ej: Ju@npin34w23
-    ["telefono", ""],                      # Ej: 987654321
-    ["region", ""],                        # Ej: Metropolitana
-    ["comuna", ""]                         # Ej: Santiago
+    ["nombreCompleto", ""],                
+    ["correoElectronico", ""],             
+    ["contrasenaRegistro", ""],            
+    ["confirmarContrasenaRegistro", ""],   
+    ["telefono", ""],                      
+    ["region", ""],                        
+    ["comuna", ""]                         
 ]
 ```
 
 ---
 
-# 🛒 **3. Configuración para compras (`compras_carrito.py`)**
+# 🛒 **3. Configuración para `compras_carrito.py`**
 
-Este módulo requiere datos del **comprador** y de **pago**.
+Este módulo utiliza datos del **comprador** y los **datos bancarios**.
+✔️ **Debes completar todos los valores vacíos**.
 
-### 👤 **a) Datos del comprador**
+### 👤 a) Datos del comprador
 
 ```bash
 comprador = [
-    ["nombreComprador", ""],                # Ej: Juan Alberto pinto Ibañez  
-    ["emailComprador", ""],                 # Ej: ju.alpiba@duoc.cl
-    ["telefonoComprador", ""],              # Ej: J987654321
-    ["direccionComprador", ""]              # Ej: Av. Siempre Viva #641
+    ["nombreComprador", ""],               
+    ["emailComprador", ""],                
+    ["telefonoComprador", ""],             
+    ["direccionComprador", ""]
 ]
 ```
 
 ---
 
-### 💳 **b) Datos bancarios**
+### 💳 b) Datos bancarios
 
 ```bash
 datos_bancarios = [
-    ["numeroTarjeta", ""],                  # Ej: 5432 9876 4567 1234
-    ["fechaVencimiento", ""],               # Ej: 23/7
-    ["cvv", ""]                             # Ej: 133
+    ["numeroTarjeta", ""],
+    ["fechaVencimiento", ""],
+    ["cvv", ""]
 ]
 ```
 
 ---
 
-
-
-   
+Si quieres, también puedo diseñarte una **versión más corta**, una **más visual**, o una **estilo README profesional nivel GitHub**.
