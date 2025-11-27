@@ -56,13 +56,13 @@ para hacer utilizacion del script de **`inicio_sesion.py`** modificar esto
 
 ```bash
   register = [
-        ["nombreCompleto", "juanito perez"],
-        ["correoElectronico", "juan.perez.gonzalez.estudiante.de.contabilidad.financiera.2025.seccion001@duoc.cl"],
-        ["contrasenaRegistro", "C@rrera12q12"],
-        ["confirmarContrasenaRegistro","C@rrera12q12"],
+        ["nombreCompleto", ""],
+        ["correoElectronico", ""],
+        ["contrasenaRegistro", ""],
+        ["confirmarContrasenaRegistro",""],
         ["telefono", "987654321"],
-        ["region","Metropolitana"],
-        ["comuna","Santiago"]
+        ["region",""], # Ej: Metropolitana
+        ["comuna",""]       # Ej: Santiago
     ]
 ```
 
@@ -73,7 +73,7 @@ luego en el siguiente parte del codigo modificar esto
 ```bash
     login = [
         ["correoAcceso",""],
-        ["contrasenaAcceso", "C@rrera12q12"]
+        ["contrasenaAcceso", ""]
     ]
     
 ```
