@@ -69,13 +69,13 @@ def llenar_formulario(url):
         # === DATOS DEL FORMULARIO ===
         # Ajusta IDs/valores según lo necesario
         datos = [
-            ("nombreCompleto", "vargas vargas"),
-            ("correoElectronico", "elvargas@duoc.cl"),
-            ("contrasenaRegistro", "C@rrera12q12"),
-            ("confirmarContrasenaRegistro", "C@rrera12q12"),
-            ("telefono", "987654321"),
-            ("region", "Metropolitana"),   # si es select, la función leer_valor_campo lo manejará
-            ("comuna", "Santiago")         # idem
+            ("nombreCompleto", ""),
+            ("correoElectronico", ""),
+            ("contrasenaRegistro", ""),
+            ("confirmarContrasenaRegistro", ""),
+            ("telefono", ""),
+            ("region", ""),  #EJ: Metropolitana
+            ("comuna", "")   #EJ: Santiago
         ]
 
         # === 1) Verificar existencia de campos con espera ===
@@ -220,3 +220,4 @@ def llenar_formulario(url):
 # === EJECUCIÓN ===
 if __name__ == "__main__":
     llenar_formulario("https://makasuim.github.io/registro.html")
+
