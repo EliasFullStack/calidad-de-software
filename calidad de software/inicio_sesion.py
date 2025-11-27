@@ -39,19 +39,19 @@ def llenar_formulario(url):
 
     # Datos de registro
     register = [
-        ["nombreCompleto", ""],
-        ["correoElectronico", ""],
-        ["contrasenaRegistro", ""],
-        ["confirmarContrasenaRegistro",""],
-        ["telefono", ""],   
-        ["region",""],          #Ej: Metropolitana
-        ["comuna",""]           #Ej: Santiago
+        ["nombreCompleto", ""],                     # Ej: Juan Alberto Pinto Ibañez
+        ["correoElectronico", ""],                  # Ej: ju.alpiba@duoc.cl
+        ["contrasenaRegistro", ""],                 # Ej: Ju@npin34w23
+        ["confirmarContrasenaRegistro",""],         # Ej: Ju@npin34w23
+        ["telefono", ""],                           # Ej: 987654321
+        ["region",""],                              # Ej: Metropolitana
+        ["comuna",""]                               # Ej: Santiago
     ]
 
     # Datos de login
     login = [
-        ["correoAcceso",""],
-        ["contrasenaAcceso", ""]
+        ["correoAcceso",""],                        # Ej: ju.alpiba@duoc.cl
+        ["contrasenaAcceso", ""]                    # Ej: Ju@npin34w23
     ]
 
     try:
@@ -178,3 +178,4 @@ def llenar_formulario(url):
 
 # === EJECUTAR ===
 llenar_formulario('https://makasuim.github.io/registro.html')
+
