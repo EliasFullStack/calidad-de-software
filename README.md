@@ -2,9 +2,9 @@
 
 Este repositorio corresponde al ramo **Calidad de Software** del Instituto Profesional **DUOC UC**, donde se trabajan prácticas de:
 
-✔️ Validación
-✔️ Automatización
-✔️ Aseguramiento de Calidad
+- ✔️ Validación
+- ✔️ Automatización
+- ✔️ Aseguramiento de Calidad
 
 Todo mediante la ejecución de **pruebas automatizadas con Selenium** para evaluar el correcto funcionamiento de una aplicación web.
 
