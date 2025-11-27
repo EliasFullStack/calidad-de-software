@@ -94,13 +94,13 @@ Este script requiere completar **datos de registro** y **datos de inicio de sesi
 
 ```bash
 register = [
-    ["nombreCompleto", ""],
-    ["correoElectronico", ""],
-    ["contrasenaRegistro", ""],
-    ["confirmarContrasenaRegistro", ""],
-    ["telefono", "987654321"],
-    ["region", ""],  # Ej: Metropolitana
-    ["comuna", ""]   # Ej: Santiago
+    ["nombreCompleto", ""],                # Ej: Juan Alberto pinto Ibañez
+    ["correoElectronico", ""],             # Ej: ju.alpiba@duoc.cl
+    ["contrasenaRegistro", ""],            # Ej: Ju@npin34w23
+    ["confirmarContrasenaRegistro", ""],   # Ej: Ju@npin34w23
+    ["telefono", "987654321"],             # Ej: 987654321
+    ["region", ""],                        # Ej: Metropolitana
+    ["comuna", ""]                         # Ej: Santiago
 ]
 ```
 
@@ -110,8 +110,8 @@ register = [
 
 ```bash
 login = [
-    ["correoAcceso", ""],
-    ["contrasenaAcceso", ""]
+    ["correoAcceso", ""],                  # Ej: ju.alpiba@duoc.cl
+    ["contrasenaAcceso", ""]               # Ej: Ju@npin34w23
 ]
 ```
 
@@ -123,13 +123,13 @@ Debes **reemplazar solo los valores vacíos** en la segunda columna:
 
 ```bash
 datos = [
-    ["nombreCompleto", ""],
-    ["correoElectronico", ""],
-    ["contrasenaRegistro", ""],
-    ["confirmarContrasenaRegistro", ""],
-    ["telefono", ""],
-    ["region", ""],    # Ej: Metropolitana
-    ["comuna", ""]     # Ej: Santiago
+    ["nombreCompleto", ""],                # Ej: Juan Alberto pinto Ibañez     
+    ["correoElectronico", ""],             # Ej: ju.alpiba@duoc.cl
+    ["contrasenaRegistro", ""],            # Ej: Ju@npin34w23
+    ["confirmarContrasenaRegistro", ""],   # Ej: Ju@npin34w23
+    ["telefono", ""],                      # Ej: 987654321
+    ["region", ""],                        # Ej: Metropolitana
+    ["comuna", ""]                         # Ej: Santiago
 ]
 ```
 
@@ -143,10 +143,10 @@ Este módulo requiere datos del **comprador** y de **pago**.
 
 ```bash
 comprador = [
-    ["nombreComprador", ""], 
-    ["emailComprador", ""],
-    ["telefonoComprador", ""],
-    ["direccionComprador", ""],
+    ["nombreComprador", ""],                # Ej: Juan Alberto pinto Ibañez  
+    ["emailComprador", ""],                 # Ej: ju.alpiba@duoc.cl
+    ["telefonoComprador", ""],              # Ej: J987654321
+    ["direccionComprador", ""]              # Ej: Av. Siempre Viva #641
 ]
 ```
 
@@ -156,9 +156,9 @@ comprador = [
 
 ```bash
 datos_bancarios = [
-    ["numeroTarjeta", ""],
-    ["fechaVencimiento", ""],
-    ["cvv", ""]
+    ["numeroTarjeta", ""],                  # Ej: 5432 9876 4567 1234
+    ["fechaVencimiento", ""],               # Ej: 23/7
+    ["cvv", ""]                             # Ej: 133
 ]
 ```
 
