@@ -49,9 +49,6 @@ python modificacion_carrito.py
 ```
 
 ---
-Aquí tienes una versión clara y breve:
-
----
 
 para hacer utilizacion del script de **`inicio_sesion.py`** modificar esto
 
