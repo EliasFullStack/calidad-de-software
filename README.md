@@ -119,13 +119,13 @@ Rellena los valores vacíos:
 
 ```bash
 datos = [
-    ["nombreCompleto", ""],                
-    ["correoElectronico", ""],             
-    ["contrasenaRegistro", ""],            
-    ["confirmarContrasenaRegistro", ""],   
-    ["telefono", ""],                      
-    ["region", ""],                        
-    ["comuna", ""]                         
+    ["nombreCompleto", ""],                # Ej: Juan Alberto Pinto Ibañez       
+    ["correoElectronico", ""],             # Ej: ju.alpiba@duoc.cl
+    ["contrasenaRegistro", ""],            # Ej: Ju@npin34w23
+    ["confirmarContrasenaRegistro", ""],   # Ej: Ju@npin34w23
+    ["telefono", ""],                      # Ej: 987654321
+    ["region", ""],                        # Ej: Metropolitana
+    ["comuna", ""]                         # Ej: Santiago
 ]
 ```
 
@@ -142,10 +142,10 @@ Este módulo utiliza datos del comprador y datos bancarios.
 
 ```bash
 comprador = [
-    ["nombreComprador", ""],               
-    ["emailComprador", ""],                
-    ["telefonoComprador", ""],             
-    ["direccionComprador", ""]
+    ["nombreComprador", ""],               # Ej: Juan Alberto Pinto Ibañez
+    ["emailComprador", ""],                # Ej: ju.alpiba@duoc.cl
+    ["telefonoComprador", ""],             # Ej: 987654321
+    ["direccionComprador", ""]             # Ej: 742 Evergreen Terrace, Springfield
 ]
 ```
 
@@ -154,10 +154,10 @@ comprador = [
 ### 💳 b) Datos bancarios
 
 ```bash
-datos_bancarios = [
-    ["numeroTarjeta", ""],                 
-    ["fechaVencimiento", ""],              
-    ["cvv", ""]
+datos_bancarios = [              
+    ["numeroTarjeta", ""],                 # Ej: Juan Alberto Pinto Ibañez
+    ["fechaVencimiento", ""],              # Ej: 23/3
+    ["cvv", ""]                            # Ej: 133
 ]
 ```
 
