@@ -7,15 +7,16 @@ El repositorio está compuesto por cuatro módulos de automatización, cada uno 
 
 ## 🧭 Contenido del repositorio
 
-inicio_sesion.py — Automatiza el proceso de inicio de sesión, validando credenciales correctas e incorrectas y el comportamiento esperado del sistema.
+**`inicio_sesion.py` →** Este script incluye tanto el formulario de registro como el proceso de inicio de sesión. Su función es permitir que el usuario primero complete el registro y, una vez almacenados esos datos en la base local, pueda iniciar sesión correctamente. Si el usuario no se registra, el sistema no tendría datos para validar el correo o la contraseña, por lo que el propio código implementa este flujo: **primero registrar y luego iniciar sesión**.
 
-registro_usuario.py — Ejecuta el flujo completo de registro de un nuevo usuario, incluyendo validaciones de campos y mensajes del sistema.
 
-compras_carrito.py — Simula la selección y agregado de productos al carrito, además del avance en el flujo de compra.
+**registro_usuario.py** — Ejecuta el flujo completo de registro de un nuevo usuario, incluyendo validaciones de campos y mensajes del sistema.
 
-modificacion_carrito.py — Permite automatizar acciones dentro del carrito, como modificar cantidades o eliminar productos.
+**compras_carrito.py** — Simula la selección y agregado de productos al carrito, además del avance en el flujo de compra.
 
-requirements.txt — Archivo que contiene todas las dependencias necesarias para ejecutar los scripts de automatización.
+**modificacion_carrito.py** — Permite automatizar acciones dentro del carrito, como modificar cantidades o eliminar productos.
+
+**requirements.txt** — Archivo que contiene todas las dependencias necesarias para ejecutar los scripts de automatización.
 
 
 ## ⚙️ Instalación de dependencias (requirements.txt)
@@ -46,6 +47,7 @@ python compras_carrito.py
 python modificacion_carrito.py
 ```
 
----
+para hacer las pruebas y ejecucion de los escript para cada caso en el codigo se encuentran lo siguiente
+```bash
 
-Si quieres, puedo combinar esta sección con la de instalación de dependencias para dejar tu README totalmente ordenado.
+```
