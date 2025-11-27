@@ -22,5 +22,6 @@ requirements.txt — Archivo que contiene todas las dependencias necesarias para
 
 Para instalar las librerías necesarias para ejecutar los scripts del proyecto, debes usar el archivo requirements.txt.
 En la terminal, ejecuta el siguiente comando dentro de la carpeta del repositorio:
-
+´´´
 pip install -r requirements.txt
+´´´
