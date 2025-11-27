@@ -54,7 +54,7 @@ para hacer utilizacion del script de **`inicio_sesion.py`** modificar esto
 
 
 
-```bash
+`
 datos = [
     ["nombreCompleto", ""],
     ["correoElectronico", ""],
@@ -64,13 +64,13 @@ datos = [
     ["region", ""],    # Ej: Metropolitana
     ["comuna", ""]     # Ej: Santiago
 ]
-```
+`
 
 
 luego en el siguiente parte del codigo modificar esto
 
 
-```bash
+`
 datos = [
     ["nombreCompleto", ""],
     ["correoElectronico", ""],
@@ -80,7 +80,7 @@ datos = [
     ["region", ""],    # Ej: Metropolitana
     ["comuna", ""]     # Ej: Santiago
 ]
-``````
+`
 
 
 
@@ -91,7 +91,7 @@ datos = [
 
 Para ejecutar el script **`registro_usuario.py`**, debes **reemplazar los valores vacíos** en la segunda columna de cada campo. Los nombres de los campos deben mantenerse sin cambios.
 
-```bash
+`
 datos = [
     ["nombreCompleto", ""],
     ["correoElectronico", ""],
@@ -101,7 +101,7 @@ datos = [
     ["region", ""],    # Ej: Metropolitana
     ["comuna", ""]     # Ej: Santiago
 ]
-```
+`
 
 ---
 
