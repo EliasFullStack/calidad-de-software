@@ -74,8 +74,8 @@ def llenar_formulario(url):
             ("contrasenaRegistro", ""),
             ("confirmarContrasenaRegistro", ""),
             ("telefono", ""),
-            ("region", ""),  #EJ: Metropolitana
-            ("comuna", "")   #EJ: Santiago
+            ("region", ""),  #Ej: Metropolitana
+            ("comuna", "")   #Ej: Santiago
         ]
 
         # === 1) Verificar existencia de campos con espera ===
@@ -220,4 +220,5 @@ def llenar_formulario(url):
 # === EJECUCIÓN ===
 if __name__ == "__main__":
     llenar_formulario("https://makasuim.github.io/registro.html")
+
 
