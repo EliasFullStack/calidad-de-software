@@ -70,7 +70,7 @@ datos = [
 luego en el siguiente parte del codigo modificar esto
 
 
-`
+```
 datos = [
     ["nombreCompleto", ""],
     ["correoElectronico", ""],
@@ -80,7 +80,7 @@ datos = [
     ["region", ""],    # Ej: Metropolitana
     ["comuna", ""]     # Ej: Santiago
 ]
-`
+```
 
 
 
