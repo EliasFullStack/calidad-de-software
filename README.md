@@ -19,27 +19,19 @@ El proyecto está compuesto por **cuatro módulos de automatización**, cada uno
 Automatiza el flujo completo de **registro + inicio de sesión**.
 Primero registra al usuario y luego utiliza esos mismos datos almacenados para validar el acceso.
 
----
-
 ### 🧑‍💻 **`registro_usuario.py`**
 
 Simula el registro de un nuevo usuario, validando campos, mensajes del sistema y el guardado de información.
-
----
 
 ### 🛒 **`compras_carrito.py`**
 
 Simula la **selección y compra de productos**.
 Este flujo **no requiere autenticación** y puede ejecutarse de forma independiente.
 
----
-
 ### 🛍️ **`modificacion_carrito.py`**
 
 Automatiza acciones dentro del carrito: actualizar cantidades, modificar productos o eliminarlos.
 Tampoco depende de un usuario autenticado.
-
----
 
 ### 📦 **`requirements.txt`**
 
