@@ -22,6 +22,30 @@ requirements.txt — Archivo que contiene todas las dependencias necesarias para
 
 Para instalar las librerías necesarias para ejecutar los scripts del proyecto, debes usar el archivo requirements.txt.
 En la terminal, ejecuta el siguiente comando dentro de la carpeta del repositorio:
-´´´
+```bash
 pip install -r requirements.txt
-´´´
+```
+
+## ▶️ Ejecución de los scripts
+
+Para ejecutar cada uno de los módulos de automatización, utiliza los siguientes comandos en la terminal:
+
+```bash
+python inicio_sesion.py
+```
+
+```bash
+python registro_usuario.py
+```
+
+```bash
+python compras_carrito.py
+```
+
+```bash
+python modificacion_carrito.py
+```
+
+---
+
+Si quieres, puedo combinar esta sección con la de instalación de dependencias para dejar tu README totalmente ordenado.
