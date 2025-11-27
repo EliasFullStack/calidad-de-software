@@ -9,14 +9,15 @@ El repositorio está compuesto por cuatro módulos de automatización, cada uno 
 
 **`inicio_sesion.py` →** Este script incluye tanto el formulario de registro como el proceso de inicio de sesión. Su función es permitir que el usuario primero complete el registro y, una vez almacenados esos datos en la base local, pueda iniciar sesión correctamente. Si el usuario no se registra, el sistema no tendría datos para validar el correo o la contraseña, por lo que el propio código implementa este flujo: **primero registrar y luego iniciar sesión**.
 
+**`registro_usuario.py` →** Ejecuta el flujo completo de registro de un nuevo usuario, gestionando el ingreso de datos, las validaciones de cada campo y los mensajes que entrega el sistema durante el proceso. Su función es almacenar correctamente la información del usuario en la base local para que posteriormente pueda utilizar las demás funcionalidades del proyecto.
 
-**registro_usuario.py** — Ejecuta el flujo completo de registro de un nuevo usuario, incluyendo validaciones de campos y mensajes del sistema.
 
-**compras_carrito.py** — Simula la selección y agregado de productos al carrito, además del avance en el flujo de compra.
+**`compras_carrito.py` →** Simula la selección y el agregado de productos al carrito, además de avanzar en el flujo de compra. Este script funciona de manera independiente al inicio de sesión, por lo que puede ejecutarse sin que el usuario esté autenticado.
 
-**modificacion_carrito.py** — Permite automatizar acciones dentro del carrito, como modificar cantidades o eliminar productos.
+**`modificacion_carrito.py` →** Automatiza acciones dentro del carrito, como modificar cantidades, actualizar productos o eliminarlos. Al igual que el flujo de compra, este proceso no depende de que el usuario haya iniciado sesión.
 
-**requirements.txt** — Archivo que contiene todas las dependencias necesarias para ejecutar los scripts de automatización.
+
+**`requirements.txt` →** Archivo que contiene todas las dependencias necesarias para ejecutar los scripts de automatización.
 
 
 ## ⚙️ Instalación de dependencias (requirements.txt)
