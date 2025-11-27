@@ -48,8 +48,6 @@ python compras_carrito.py
 python modificacion_carrito.py
 ```
 
-Aquí va una versión mucho más resumida:
-
 ---
 
 Para ejecutar pruebas con **`registro_usuario.py`**, debes **modificar solo los valores** de los campos del formulario (segunda columna), manteniendo los nombres de los campos sin cambios.
